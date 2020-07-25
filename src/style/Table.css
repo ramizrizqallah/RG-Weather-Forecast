@@ -1,0 +1,71 @@
+.grid-block{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 0px;
+    height: auto;
+    position: sticky;
+    
+}
+
+    .block{
+       height: 190px;
+       cursor: pointer;
+    
+    }
+
+    .link:hover .info {
+        background-color: #E4E4E4;
+        
+    }
+    .link:hover .dayName{
+        background-color: #E4E4E4;
+        
+    }
+
+    .today-link:hover #today{
+        background-color: #339557;
+    }
+    .today-link:hover #todayInfo{
+        background-color: #339557;
+    }
+
+.dayName{
+    font-size:24px ;
+    font-weight: bold;
+    border: 1px grey solid;
+    border-bottom: none;
+    background-color: lightgrey;
+    color: #246D3F;
+    height:  43px;
+}
+#today{
+    background-color: #246D3F;
+    color: white;
+    height:  43px;
+}
+
+    .info{
+        border: 1px grey solid;
+        background-color: lightgrey;
+        border-top: none;
+    }
+    #todayInfo{
+        background-color: #246D3F;
+    }
+
+.statusImage{
+   margin: 5px;
+    width:auto;
+    height: 80px;
+
+}
+#todayTemp{
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    background-color: none;
+}

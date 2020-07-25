@@ -1,0 +1,113 @@
+.main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap:3px;
+    justify-items: center;
+}
+.main-text{
+color:#246D3F;
+margin: 4px;
+padding:0px;
+text-align: center;
+font-family: 'Segoe UI';
+
+}
+
+.temp{
+    color:#246D3F;
+    margin: 4px;
+    padding:0px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+#name{
+    
+    font-size: 60px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+#date{
+    font-size: 20px;
+    margin: 0px
+}
+
+.temperatures{
+
+display: grid;
+grid-template-columns: auto auto;
+}
+#maxTemp{
+    font-size: 100px;
+     width: fit-content;
+     padding-left: 40%;
+}
+#minTemp{
+    font-size: 36px;
+    width: fit-content;
+    padding-right: 60%;
+    padding-top: 45%;
+}
+#feels{
+    font-size: 20px;
+}
+#middleDiv{
+    top:30%;
+    vertical-align: middle;
+    position: relative;
+    height: 200px;
+}
+
+#info{
+padding-top: 60px;
+
+}
+
+#info h3{
+text-align: left;
+margin: 20px;
+}
+
+form{
+    padding-top: 20px;
+}
+
+#statusImage{
+    
+    width: 150px;
+    height: auto;
+
+}
+#search{
+    height:30px;
+    text-decoration: none;
+
+}
+
+#searchBtn{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #246D3F;
+    width: auto;
+    height: 30px;
+    opacity: 0.75;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 10%;
+
+}
+
+#searchBtn :hover {
+    background-color: white;
+    opacity: 0.75;
+    
+
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0px;
+}

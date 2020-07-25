@@ -1,0 +1,69 @@
+.second{
+    position: relative;
+    text-align: center;
+
+}
+
+#pic{
+    margin-right: 10px;
+    justify-self: right;
+    width:100px;
+    float:left;
+}
+#date{
+    font-size: 18px;
+    color: #246D3F;
+    margin: 20px 0px;
+}
+#pic-temp{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#temp{
+    margin-left: 10px;
+    justify-self: left;
+    width:fit-content;
+    margin:0px;
+}
+.text{
+    font-size: 60px;
+    color: #246D3F;
+    margin: 0px;
+}
+
+.text3{
+    font-size: 18px;
+    color: #246D3F;
+    margin: 5px 0px;
+}
+
+.extra-info{
+display: grid;
+grid-template-columns: auto auto;
+}
+
+#left{
+justify-self: right;
+padding-right: 100px;
+}
+
+#right{
+    justify-self: left;
+    padding-left: 100px;
+
+}
+.text2{
+    text-align: left;
+    font-size: 18px;
+    color: #246D3F;
+    margin: 20px 0px;
+}
+
+#back{
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top:10px;
+    cursor: pointer;
+}
